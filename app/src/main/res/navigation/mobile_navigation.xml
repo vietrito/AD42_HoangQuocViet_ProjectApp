@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.ad42_hoangquocviet_projectapp.ui.homeuser.HomeUserFragment"
+        android:label="menu_home"
+        tools:layout="@layout/fragment_homeuser" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.ad42_hoangquocviet_projectapp.ui.yourchanel.YourChanelFragment"
+        android:label="menu_yourchanel"
+        tools:layout="@layout/fragment_your_chanel" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.ad42_hoangquocviet_projectapp.ui.setting.SettingFragment"
+        android:label="menu_setting"
+        tools:layout="@layout/fragment_setting" />
+</navigation>
